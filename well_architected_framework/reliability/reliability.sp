@@ -10,10 +10,17 @@ benchmark "well_architected_framework_reliability" {
   children = [
     benchmark.well_architected_framework_rel01,
     benchmark.well_architected_framework_rel02,
+    benchmark.well_architected_framework_rel03,
+    benchmark.well_architected_framework_rel04,
+    benchmark.well_architected_framework_rel05,
     benchmark.well_architected_framework_rel06,
     benchmark.well_architected_framework_rel07,
     benchmark.well_architected_framework_rel08,
     benchmark.well_architected_framework_rel09,
+    benchmark.well_architected_framework_rel10,
+    benchmark.well_architected_framework_rel11,
+    benchmark.well_architected_framework_rel12,
+    benchmark.well_architected_framework_rel13,
   ]
 
   tags = local.well_architected_framework_reliability_common_tags

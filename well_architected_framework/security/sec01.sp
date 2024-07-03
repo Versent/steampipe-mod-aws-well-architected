@@ -1,74 +1,271 @@
 locals {
-  well_architected_framework_sec01_common_tags = merge(local.well_architected_framework_security_common_tags, {
-    question_id = "securely-operate"
+  well_architected_framework_sec01_common_tags = merge(local.well_architected_framework_operational_excellence_common_tags, {
+    question_id = "secure-operations"
   })
 }
 
 benchmark "well_architected_framework_sec01" {
-  title       = "SEC01 How do you securely operate your workload?"
-  description = "To operate your workload securely, you must apply overarching best practices to every area of security. Take requirements and processes that you have defined in operational excellence at an organizational and workload level, and apply them to all areas. Staying up to date with AWS and industry recommendations and threat intelligence helps you evolve your threat model and control objectives. Automating security processes, testing, and validation allow you to scale your security operations."
+  title       = "SEC1 How do you securely operate your workload?"
+  description = "To operate your workload securely, you must apply overarching best practices to every area of security. Take requirements and processes that you have defined in operational excellence at an organizational and workload level, and apply them to all areas. Staying up to date with AWS and industry recommendations and threat intelligence helps you evolve your threat model and control objectives. Automating security processes, testing, and validation permit you to scale your security operations."
+
   children = [
     benchmark.well_architected_framework_sec01_bp01,
     benchmark.well_architected_framework_sec01_bp02,
+    benchmark.well_architected_framework_sec01_bp03,
+    benchmark.well_architected_framework_sec01_bp04,
+    benchmark.well_architected_framework_sec01_bp05,
     benchmark.well_architected_framework_sec01_bp06,
-    benchmark.well_architected_framework_sec01_bp08,
+    benchmark.well_architected_framework_sec01_bp07,
+    benchmark.well_architected_framework_sec01_bp08
   ]
 
   tags = local.well_architected_framework_sec01_common_tags
 }
 
 benchmark "well_architected_framework_sec01_bp01" {
-  title       = "BP01 Separate workloads using accounts"
-  description = "Establish common guardrails and isolation between environments (such as production, development, and test) and workloads through a multi-account strategy. Account-level separation is strongly recommended, as it provides a strong isolation boundary for security, billing, and access."
+  title       = "SEC01-BP01 Separate workloads using accounts"
+  description = "Separate workloads using accounts to isolate resources and manage security boundaries effectively."
+
   children = [
+    control.csv_well_architected_framework_sec01_bp01,
     aws_compliance.control.account_part_of_organizations
   ]
 
   tags = merge(local.well_architected_framework_sec01_common_tags, {
-    choice_id = "sec_securely_operate_multi_accounts"
-    risk      = "high"
+    choice_id = "separate_workloads_accounts",
+    risk      = "High"
   })
 }
 
 benchmark "well_architected_framework_sec01_bp02" {
-  title       = "BP02 Secure account root user and properties"
-  description = "The root user is the most privileged user in an AWS account, with full administrative access to all resources within the account, and in some cases cannot be constrained by security policies. Disabling programmatic access to the root user, establishing appropriate controls for the root user, and avoiding routine use of the root user helps reduce the risk of inadvertent exposure of the root credentials and subsequent compromise of the cloud environment."
+  title       = "SEC01-BP02 Secure account root user and properties"
+  description = "Secure the account root user and properties to protect your AWS account from unauthorized access and changes."
+
   children = [
-    // TODO: Should we add a control that uses the query iam_root_last_used?
+    control.csv_well_architected_framework_sec01_bp02,
     aws_compliance.control.iam_root_user_hardware_mfa_enabled,
     aws_compliance.control.iam_root_user_mfa_enabled,
     aws_compliance.control.iam_root_user_no_access_keys
   ]
 
   tags = merge(local.well_architected_framework_sec01_common_tags, {
-    choice_id = "sec_securely_operate_multi_accounts"
-    risk      = "high"
+    choice_id = "secure_root_user",
+    risk      = "High"
+  })
+}
+
+benchmark "well_architected_framework_sec01_bp03" {
+  title       = "SEC01-BP03 Identify and validate control objectives"
+  description = "Identify and validate control objectives to ensure that your security controls are effective and meet your requirements."
+
+  children = [
+    control.csv_well_architected_framework_sec01_bp03
+  ]
+
+  tags = merge(local.well_architected_framework_sec01_common_tags, {
+    choice_id = "validate_control_objectives",
+    risk      = "High"
+  })
+}
+
+benchmark "well_architected_framework_sec01_bp04" {
+  title       = "SEC01-BP04 Stay up to date with security threats and recommendations"
+  description = "Stay up to date with security threats and recommendations to ensure that your security practices evolve with the threat landscape."
+
+  children = [
+    control.csv_well_architected_framework_sec01_bp04
+  ]
+
+  tags = merge(local.well_architected_framework_sec01_common_tags, {
+    choice_id = "stay_up_to_date",
+    risk      = "Medium"
+  })
+}
+
+benchmark "well_architected_framework_sec01_bp05" {
+  title       = "SEC01-BP05 Reduce security management scope"
+  description = "Reduce security management scope to focus on critical areas and improve overall security management efficiency."
+
+  children = [
+    control.csv_well_architected_framework_sec01_bp05
+  ]
+
+  tags = merge(local.well_architected_framework_sec01_common_tags, {
+    choice_id = "reduce_management_scope",
+    risk      = "Medium"
   })
 }
 
 benchmark "well_architected_framework_sec01_bp06" {
-  title       = "BP06 Automate testing and validation of security controls in pipelines"
-  description = "Establish secure baselines and templates for security mechanisms that are tested and validated as part of your build, pipelines, and processes. Use tools and automation to test and validate all security controls continuously."
+  title       = "SEC01-BP06 Automate deployment of standard security controls"
+  description = "Automate the deployment of standard security controls to ensure consistency and scalability in your security operations."
+
   children = [
+    control.csv_well_architected_framework_sec01_bp06,
     aws_compliance.control.ec2_instance_ssm_managed,
-    aws_compliance.control.ecr_repository_image_scan_on_push_enabled,
+    aws_compliance.control.ecr_repository_image_scan_on_push_enabled
   ]
 
   tags = merge(local.well_architected_framework_sec01_common_tags, {
-    choice_id = "sec_securely_operate_test_validate_pipeline"
-    risk      = "medium"
+    choice_id = "automate_security_controls",
+    risk      = "High"
+  })
+}
+
+benchmark "well_architected_framework_sec01_bp07" {
+  title       = "SEC01-BP07 Identify threats and prioritize mitigations using a threat model"
+  description = "Identify threats and prioritize mitigations using a threat model to ensure that you address the most critical security risks."
+
+  children = [
+    control.csv_well_architected_framework_sec01_bp07
+  ]
+
+  tags = merge(local.well_architected_framework_sec01_common_tags, {
+    choice_id = "threat_modeling",
+    risk      = "High"
   })
 }
 
 benchmark "well_architected_framework_sec01_bp08" {
-  title       = "BP08 Evaluate and implement new security services and features regularly"
-  description = "Evaluate and implement security services and features from AWS and AWS Partners that allow you to evolve the security posture of your workload. The AWS Security Blog highlights new AWS services and features, implementation guides, and general security guidance."
+  title       = "SEC01-BP08 Evaluate and implement new security services and features regularly"
+  description = "Evaluate and implement new security services and features regularly to ensure that your security posture remains current and effective."
+
   children = [
-    aws_compliance.control.codebuild_project_plaintext_env_variables_no_sensitive_aws_values,
+    control.csv_well_architected_framework_sec01_bp08,
+    aws_compliance.control.codebuild_project_plaintext_env_variables_no_sensitive_aws_values
   ]
 
   tags = merge(local.well_architected_framework_sec01_common_tags, {
-    choice_id = "sec_securely_operate_implement_services_features"
-    risk      = "low"
+    choice_id = "evaluate_new_services",
+    risk      = "Medium"
   })
+}
+
+# Controls
+control "csv_well_architected_framework_sec01_bp01" {
+  title = "Customer Response"
+
+  sql = <<EOT
+    select
+      reason,
+      resource,
+      status,
+      region
+    from
+      war
+    where
+      pillar = 'security' AND best_practise = 'SEC01-BP01'
+    EOT
+}
+
+control "csv_well_architected_framework_sec01_bp02" {
+  title = "Customer Response"
+
+  sql = <<EOT
+    select
+      reason,
+      resource,
+      status,
+      region
+    from
+      war
+    where
+      pillar = 'security' AND best_practise = 'SEC01-BP02'
+    EOT
+}
+
+control "csv_well_architected_framework_sec01_bp03" {
+  title = "Customer Response"
+
+  sql = <<EOT
+    select
+      reason,
+      resource,
+      status,
+      region
+    from
+      war
+    where
+      pillar = 'security' AND best_practise = 'SEC01-BP03'
+    EOT
+}
+
+control "csv_well_architected_framework_sec01_bp04" {
+  title = "Customer Response"
+
+  sql = <<EOT
+    select
+      reason,
+      resource,
+      status,
+      region
+    from
+      war
+    where
+      pillar = 'security' AND best_practise = 'SEC01-BP04'
+    EOT
+}
+
+control "csv_well_architected_framework_sec01_bp05" {
+  title = "Customer Response"
+
+  sql = <<EOT
+    select
+      reason,
+      resource,
+      status,
+      region
+    from
+      war
+    where
+      pillar = 'security' AND best_practise = 'SEC01-BP05'
+    EOT
+}
+
+control "csv_well_architected_framework_sec01_bp06" {
+  title = "Customer Response"
+
+  sql = <<EOT
+    select
+      reason,
+      resource,
+      status,
+      region
+    from
+      war
+    where
+      pillar = 'security' AND best_practise = 'SEC01-BP06'
+    EOT
+}
+
+control "csv_well_architected_framework_sec01_bp07" {
+  title = "Customer Response"
+
+  sql = <<EOT
+    select
+      reason,
+      resource,
+      status,
+      region
+    from
+      war
+    where
+      pillar = 'security' AND best_practise = 'SEC01-BP07'
+    EOT
+}
+
+control "csv_well_architected_framework_sec01_bp08" {
+  title = "Customer Response"
+
+  sql = <<EOT
+    select
+      reason,
+      resource,
+      status,
+      region
+    from
+      war
+    where
+      pillar = 'security' AND best_practise = 'SEC01-BP08'
+    EOT
 }

@@ -83,3 +83,39 @@ benchmark "well_architected_framework_sec04_bp03" {
     risk      = "medium"
   })
 }
+
+control "cloudtrail_trail_integrated_with_logs" {
+  title = "Customer Response"
+
+  sql = <<EOT
+select
+  arn as resource,
+  case
+    when log_group_arn is not null 
+      and (is_organization_trail = true and (latest_delivery_time is null or latest_delivery_time > current_date - interval '1 day'))
+      then 'ok'
+    when log_group_arn is not null 
+      and (is_organization_trail = false and latest_delivery_time > current_date - interval '1 day')
+      then 'ok'
+   else 'alarm'
+  end as status,
+  case
+    when log_group_arn is not null 
+      and (is_organization_trail = true and (latest_delivery_time is null or latest_delivery_time > current_date - interval '1 day'))
+      then title || ' integrated with CloudWatch logs (organization trail).'
+    when log_group_arn is not null 
+      and (is_organization_trail = false and latest_delivery_time > current_date - interval '1 day')
+      then title || ' integrated with CloudWatch logs.'
+    when is_organization_trail = true 
+      and log_group_arn is not null 
+      then title || ' integrated with CloudWatch logs owned by another account (organization trail).'
+    else title || ' not integrated with CloudWatch logs.'
+  end as reason,
+  region,
+  account_id
+from
+  aws_cloudtrail_trail
+where
+  region = home_region;
+    EOT
+}
