@@ -1,0 +1,365 @@
+pillar,best_practise_area,question,best_practise,region,reason,resource,status
+operational-excellence,organization,OPS01,OPS01-BP01,ap-southeast-2,We work from customer outcomes,customer,test
+operational-excellence,organization,OPS01,OPS01-BP02,ap-southeast-2,We update your priorities as needs change,customer,ok
+operational-excellence,organization,OPS01,OPS01-BP03,ap-southeast-2,Governance requirements are regularly reviewed and updated,customer,ok
+operational-excellence,organization,OPS01,OPS01-BP04,ap-southeast-2,Align to HIPAA,customer,ok
+operational-excellence,organization,OPS01,OPS01-BP05,ap-southeast-2,This area needs work,customer,skip
+operational-excellence,organization,OPS01,OPS01-BP06,ap-southeast-2,This area needs work,customer,skip
+
+operational-excellence,organization,OPS02,OPS02-BP01,ap-southeast-2,No answer,customer,info
+operational-excellence,organization,OPS02,OPS02-BP02,ap-southeast-2,No answer,customer,skip
+operational-excellence,organization,OPS02,OPS02-BP03,ap-southeast-2,No answer,customer,skip
+operational-excellence,organization,OPS02,OPS02-BP04,ap-southeast-2,No answer,customer,skip
+operational-excellence,organization,OPS02,OPS02-BP05,ap-southeast-2,No answer,customer,skip
+operational-excellence,organization,OPS02,OPS02-BP06,ap-southeast-2,This area needs work,customer,skip
+
+operational-excellence,organization,OPS03,OPS03-BP01,ap-southeast-2,No answer,customer,skip
+operational-excellence,organization,OPS03,OPS03-BP02,ap-southeast-2,No answer,customer,skip
+operational-excellence,organization,OPS03,OPS03-BP03,ap-southeast-2,No answer,customer,skip
+operational-excellence,organization,OPS03,OPS03-BP04,ap-southeast-2,No answer,customer,skip
+operational-excellence,organization,OPS03,OPS03-BP05,ap-southeast-2,No answer,customer,skip
+operational-excellence,organization,OPS03,OPS03-BP06,ap-southeast-2,No answer,customer,skip
+operational-excellence,organization,OPS03,OPS03-BP07,ap-southeast-2,No answer,customer,skip
+
+operational-excellence,prepare,OPS04,OPS04-BP01,ap-southeast-2,No answer,customer,skip
+operational-excellence,prepare,OPS04,OPS04-BP02,ap-southeast-2,No answer,customer,skip
+operational-excellence,prepare,OPS04,OPS04-BP03,ap-southeast-2,No answer,customer,skip
+operational-excellence,prepare,OPS04,OPS04-BP04,ap-southeast-2,No answer,customer,skip
+operational-excellence,prepare,OPS04,OPS04-BP05,ap-southeast-2,No answer,customer,skip
+
+operational-excellence,prepare,OPS05,OPS05-BP01,ap-southeast-2,No answer,customer,skip
+operational-excellence,prepare,OPS05,OPS05-BP02,ap-southeast-2,No answer,customer,skip
+operational-excellence,prepare,OPS05,OPS05-BP03,ap-southeast-2,No answer,customer,skip
+operational-excellence,prepare,OPS05,OPS05-BP04,ap-southeast-2,No answer,customer,skip
+operational-excellence,prepare,OPS05,OPS05-BP05,ap-southeast-2,No answer,customer,skip
+operational-excellence,prepare,OPS05,OPS05-BP06,ap-southeast-2,No answer,customer,skip
+operational-excellence,prepare,OPS05,OPS05-BP07,ap-southeast-2,No answer,customer,skip
+operational-excellence,prepare,OPS05,OPS05-BP08,ap-southeast-2,No answer,customer,skip
+operational-excellence,prepare,OPS05,OPS05-BP09,ap-southeast-2,No answer,customer,skip
+operational-excellence,prepare,OPS05,OPS05-BP10,ap-southeast-2,No answer,customer,skip
+
+operational-excellence,prepare,OPS06,OPS06-BP01,ap-southeast-2,No answer,customer,skip
+operational-excellence,prepare,OPS06,OPS06-BP02,ap-southeast-2,No answer,customer,skip
+operational-excellence,prepare,OPS06,OPS06-BP03,ap-southeast-2,No answer,customer,skip
+operational-excellence,prepare,OPS06,OPS06-BP04,ap-southeast-2,No answer,customer,skip
+
+operational-excellence,prepare,OPS07,OPS07-BP01,ap-southeast-2,No answer,customer,skip
+operational-excellence,prepare,OPS07,OPS07-BP02,ap-southeast-2,No answer,customer,skip
+operational-excellence,prepare,OPS07,OPS07-BP03,ap-southeast-2,No answer,customer,skip
+operational-excellence,prepare,OPS07,OPS07-BP04,ap-southeast-2,No answer,customer,skip
+operational-excellence,prepare,OPS07,OPS07-BP05,ap-southeast-2,No answer,customer,skip
+operational-excellence,prepare,OPS07,OPS07-BP06,ap-southeast-2,No answer,customer,skip
+
+operational-excellence,operate,OPS08,OPS08-BP01,ap-southeast-2,No answer,customer,skip
+operational-excellence,operate,OPS08,OPS08-BP02,ap-southeast-2,No answer,customer,skip
+operational-excellence,operate,OPS08,OPS08-BP03,ap-southeast-2,No answer,customer,skip
+operational-excellence,operate,OPS08,OPS08-BP04,ap-southeast-2,No answer,customer,skip
+operational-excellence,operate,OPS08,OPS08-BP05,ap-southeast-2,No answer,customer,skip
+
+operational-excellence,operate,OPS09,OPS09-BP01,ap-southeast-2,No answer,customer,skip
+operational-excellence,operate,OPS09,OPS09-BP02,ap-southeast-2,No answer,customer,skip
+operational-excellence,operate,OPS09,OPS09-BP03,ap-southeast-2,No answer,customer,skip
+
+operational-excellence,operate,OPS10,OPS10-BP01,ap-southeast-2,No answer,customer,skip
+operational-excellence,operate,OPS10,OPS10-BP02,ap-southeast-2,No answer,customer,skip
+operational-excellence,operate,OPS10,OPS10-BP03,ap-southeast-2,No answer,customer,skip
+operational-excellence,operate,OPS10,OPS10-BP04,ap-southeast-2,No answer,customer,skip
+operational-excellence,operate,OPS10,OPS10-BP05,ap-southeast-2,No answer,customer,skip
+operational-excellence,operate,OPS10,OPS10-BP06,ap-southeast-2,No answer,customer,skip
+operational-excellence,operate,OPS10,OPS10-BP07,ap-southeast-2,No answer,customer,skip
+
+operational-excellence,evolve,OPS11,OPS11-BP01,ap-southeast-2,No answer,customer,skip
+operational-excellence,evolve,OPS11,OPS11-BP02,ap-southeast-2,No answer,customer,skip
+operational-excellence,evolve,OPS11,OPS11-BP03,ap-southeast-2,No answer,customer,skip
+operational-excellence,evolve,OPS11,OPS11-BP04,ap-southeast-2,No answer,customer,skip
+operational-excellence,evolve,OPS11,OPS11-BP05,ap-southeast-2,No answer,customer,skip
+operational-excellence,evolve,OPS11,OPS11-BP06,ap-southeast-2,No answer,customer,skip
+operational-excellence,evolve,OPS11,OPS11-BP07,ap-southeast-2,No answer,customer,skip
+operational-excellence,evolve,OPS11,OPS11-BP08,ap-southeast-2,No answer,customer,skip
+operational-excellence,evolve,OPS11,OPS11-BP09,ap-southeast-2,No answer,customer,skip
+
+reliability,foundations,REL01,REL01-BP01,ap-southeast-2,No answer,customer,skip
+reliability,foundations,REL01,REL01-BP02,ap-southeast-2,No answer,customer,skip
+reliability,foundations,REL01,REL01-BP03,ap-southeast-2,No answer,customer,skip
+reliability,foundations,REL01,REL01-BP04,ap-southeast-2,No answer,customer,skip
+reliability,foundations,REL01,REL01-BP05,ap-southeast-2,No answer,customer,skip
+reliability,foundations,REL01,REL01-BP06,ap-southeast-2,No answer,customer,skip
+
+reliability,foundations,REL02,REL02-BP01,ap-southeast-2,No answer,customer,skip
+reliability,foundations,REL02,REL02-BP02,ap-southeast-2,No answer,customer,skip
+reliability,foundations,REL02,REL02-BP03,ap-southeast-2,No answer,customer,skip
+reliability,foundations,REL02,REL02-BP04,ap-southeast-2,No answer,customer,skip
+reliability,foundations,REL02,REL02-BP05,ap-southeast-2,No answer,customer,skip
+
+reliability,workload-architecture,REL03,REL03-BP01,ap-southeast-2,No answer,customer,skip
+reliability,workload-architecture,REL03,REL03-BP02,ap-southeast-2,No answer,customer,skip
+reliability,workload-architecture,REL03,REL03-BP03,ap-southeast-2,No answer,customer,skip
+
+reliability,workload-architecture,REL04,REL04-BP01,ap-southeast-2,No answer,customer,skip
+reliability,workload-architecture,REL04,REL04-BP02,ap-southeast-2,No answer,customer,skip
+reliability,workload-architecture,REL04,REL04-BP03,ap-southeast-2,No answer,customer,skip
+reliability,workload-architecture,REL04,REL04-BP04,ap-southeast-2,No answer,customer,skip
+
+reliability,workload-architecture,REL05,REL05-BP01,ap-southeast-2,No answer,customer,skip
+reliability,workload-architecture,REL05,REL05-BP02,ap-southeast-2,No answer,customer,skip
+reliability,workload-architecture,REL05,REL05-BP03,ap-southeast-2,No answer,customer,skip
+reliability,workload-architecture,REL05,REL05-BP04,ap-southeast-2,No answer,customer,skip
+reliability,workload-architecture,REL05,REL05-BP05,ap-southeast-2,No answer,customer,skip
+reliability,workload-architecture,REL05,REL05-BP06,ap-southeast-2,No answer,customer,skip
+reliability,workload-architecture,REL05,REL05-BP07,ap-southeast-2,No answer,customer,skip
+
+reliability,change-management,REL06,REL06-BP01,ap-southeast-2,No answer,customer,skip
+reliability,change-management,REL06,REL06-BP02,ap-southeast-2,No answer,customer,skip
+reliability,change-management,REL06,REL06-BP03,ap-southeast-2,No answer,customer,skip
+reliability,change-management,REL06,REL06-BP04,ap-southeast-2,No answer,customer,skip
+reliability,change-management,REL06,REL06-BP05,ap-southeast-2,No answer,customer,skip
+reliability,change-management,REL06,REL06-BP06,ap-southeast-2,No answer,customer,skip
+reliability,change-management,REL06,REL06-BP07,ap-southeast-2,No answer,customer,skip
+
+reliability,change-management,REL07,REL07-BP01,ap-southeast-2,No answer,customer,skip
+reliability,change-management,REL07,REL07-BP02,ap-southeast-2,No answer,customer,skip
+reliability,change-management,REL07,REL07-BP03,ap-southeast-2,No answer,customer,skip
+reliability,change-management,REL07,REL07-BP04,ap-southeast-2,No answer,customer,skip
+
+reliability,change-management,REL08,REL08-BP01,ap-southeast-2,No answer,customer,skip
+reliability,change-management,REL08,REL08-BP02,ap-southeast-2,No answer,customer,skip
+reliability,change-management,REL08,REL08-BP03,ap-southeast-2,No answer,customer,skip
+reliability,change-management,REL08,REL08-BP04,ap-southeast-2,No answer,customer,skip
+reliability,change-management,REL08,REL08-BP05,ap-southeast-2,No answer,customer,skip
+
+reliability,failure-management,REL09,REL09-BP01,ap-southeast-2,No answer,customer,skip
+reliability,failure-management,REL09,REL09-BP02,ap-southeast-2,No answer,customer,skip
+reliability,failure-management,REL09,REL09-BP03,ap-southeast-2,No answer,customer,skip
+reliability,failure-management,REL09,REL09-BP04,ap-southeast-2,No answer,customer,skip
+
+reliability,failure-management,REL10,REL10-BP01,ap-southeast-2,No answer,customer,skip
+reliability,failure-management,REL10,REL10-BP02,ap-southeast-2,No answer,customer,skip
+reliability,failure-management,REL10,REL10-BP03,ap-southeast-2,No answer,customer,skip
+reliability,failure-management,REL10,REL10-BP04,ap-southeast-2,No answer,customer,skip
+
+reliability,failure-management,REL11,REL11-BP01,ap-southeast-2,No answer,customer,skip
+reliability,failure-management,REL11,REL11-BP02,ap-southeast-2,No answer,customer,skip
+reliability,failure-management,REL11,REL11-BP03,ap-southeast-2,No answer,customer,skip
+reliability,failure-management,REL11,REL11-BP04,ap-southeast-2,No answer,customer,skip
+reliability,failure-management,REL11,REL11-BP05,ap-southeast-2,No answer,customer,skip
+reliability,failure-management,REL11,REL11-BP06,ap-southeast-2,No answer,customer,skip
+reliability,failure-management,REL11,REL11-BP07,ap-southeast-2,No answer,customer,skip
+
+reliability,failure-management,REL12,REL12-BP01,ap-southeast-2,No answer,customer,skip
+reliability,failure-management,REL12,REL12-BP02,ap-southeast-2,No answer,customer,skip
+reliability,failure-management,REL12,REL12-BP03,ap-southeast-2,No answer,customer,skip
+reliability,failure-management,REL12,REL12-BP04,ap-southeast-2,No answer,customer,skip
+reliability,failure-management,REL12,REL12-BP05,ap-southeast-2,No answer,customer,skip
+reliability,failure-management,REL12,REL12-BP06,ap-southeast-2,No answer,customer,skip
+
+reliability,failure-management,REL13,REL13-BP01,ap-southeast-2,No answer,customer,skip
+reliability,failure-management,REL13,REL13-BP02,ap-southeast-2,No answer,customer,skip
+reliability,failure-management,REL13,REL13-BP03,ap-southeast-2,No answer,customer,skip
+reliability,failure-management,REL13,REL13-BP04,ap-southeast-2,No answer,customer,skip
+reliability,failure-management,REL13,REL13-BP05,ap-southeast-2,No answer,customer,skip
+
+security,security-foundations,SEC01,SEC01-BP01,ap-southeast-2,Customer is using AWS Landing Zone Accelerator,customer,ok
+security,security-foundations,SEC01,SEC01-BP02,ap-southeast-2,Root account is not used and password is secured in a safe,customer,ok
+security,security-foundations,SEC01,SEC01-BP03,ap-southeast-2,No answer,customer,skip
+security,security-foundations,SEC01,SEC01-BP04,ap-southeast-2,No answer,customer,skip
+security,security-foundations,SEC01,SEC01-BP05,ap-southeast-2,No answer,customer,skip
+security,security-foundations,SEC01,SEC01-BP06,ap-southeast-2,No answer,customer,skip
+security,security-foundations,SEC01,SEC01-BP07,ap-southeast-2,No answer,customer,skip
+security,security-foundations,SEC01,SEC01-BP08,ap-southeast-2,No answer,customer,skip
+
+security,security-foundations,SEC02,SEC02-BP01,ap-southeast-2,No answer,customer,skip
+security,security-foundations,SEC02,SEC02-BP02,ap-southeast-2,No answer,customer,skip
+security,security-foundations,SEC02,SEC02-BP03,ap-southeast-2,No answer,customer,skip
+security,security-foundations,SEC02,SEC02-BP04,ap-southeast-2,No answer,customer,skip
+security,security-foundations,SEC02,SEC02-BP05,ap-southeast-2,No answer,customer,skip
+security,security-foundations,SEC02,SEC02-BP06,ap-southeast-2,No answer,customer,skip
+
+security,permissions-management,SEC03,SEC03-BP01,ap-southeast-2,No answer,customer,skip
+security,permissions-management,SEC03,SEC03-BP02,ap-southeast-2,No answer,customer,skip
+security,permissions-management,SEC03,SEC03-BP03,ap-southeast-2,No answer,customer,skip
+security,permissions-management,SEC03,SEC03-BP04,ap-southeast-2,No answer,customer,skip
+security,permissions-management,SEC03,SEC03-BP05,ap-southeast-2,No answer,customer,skip
+security,permissions-management,SEC03,SEC03-BP06,ap-southeast-2,No answer,customer,skip
+security,permissions-management,SEC03,SEC03-BP07,ap-southeast-2,No answer,customer,skip
+security,permissions-management,SEC03,SEC03-BP08,ap-southeast-2,No answer,customer,skip
+security,permissions-management,SEC03,SEC03-BP09,ap-southeast-2,No answer,customer,skip
+
+security,security-events,SEC04,SEC04-BP01,ap-southeast-2,No answer,customer,skip
+security,security-events,SEC04,SEC04-BP02,ap-southeast-2,No answer,customer,skip
+security,security-events,SEC04,SEC04-BP03,ap-southeast-2,No answer,customer,skip
+security,security-events,SEC04,SEC04-BP04,ap-southeast-2,No answer,customer,skip
+
+security,network-protection,SEC05,SEC05-BP01,ap-southeast-2,No answer,customer,skip
+security,network-protection,SEC05,SEC05-BP02,ap-southeast-2,No answer,customer,skip
+security,network-protection,SEC05,SEC05-BP03,ap-southeast-2,No answer,customer,skip
+security,network-protection,SEC05,SEC05-BP04,ap-southeast-2,No answer,customer,skip
+
+security,compute-protection,SEC06,SEC06-BP01,ap-southeast-2,No answer,customer,skip
+security,compute-protection,SEC06,SEC06-BP02,ap-southeast-2,No answer,customer,skip
+security,compute-protection,SEC06,SEC06-BP03,ap-southeast-2,No answer,customer,skip
+security,compute-protection,SEC06,SEC06-BP04,ap-southeast-2,No answer,customer,skip
+security,compute-protection,SEC06,SEC06-BP05,ap-southeast-2,No answer,customer,skip
+
+security,data-classification,SEC07,SEC07-BP01,ap-southeast-2,No answer,customer,skip
+security,data-classification,SEC07,SEC07-BP02,ap-southeast-2,No answer,customer,skip
+security,data-classification,SEC07,SEC07-BP03,ap-southeast-2,No answer,customer,skip
+security,data-classification,SEC07,SEC07-BP04,ap-southeast-2,No answer,customer,skip
+
+security,data-at-rest-protection,SEC08,SEC08-BP01,ap-southeast-2,No answer,customer,skip
+security,data-at-rest-protection,SEC08,SEC08-BP02,ap-southeast-2,No answer,customer,skip
+security,data-at-rest-protection,SEC08,SEC08-BP03,ap-southeast-2,No answer,customer,skip
+security,data-at-rest-protection,SEC08,SEC08-BP04,ap-southeast-2,No answer,customer,skip
+
+security,data-in-transit-protection,SEC09,SEC09-BP01,ap-southeast-2,No answer,customer,skip
+security,data-in-transit-protection,SEC09,SEC09-BP02,ap-southeast-2,No answer,customer,skip
+security,data-in-transit-protection,SEC09,SEC09-BP03,ap-southeast-2,No answer,customer,skip
+
+security,incident-response,SEC10,SEC10-BP01,ap-southeast-2,No answer,customer,skip
+security,incident-response,SEC10,SEC10-BP02,ap-southeast-2,No answer,customer,skip
+security,incident-response,SEC10,SEC10-BP03,ap-southeast-2,No answer,customer,skip
+security,incident-response,SEC10,SEC10-BP04,ap-southeast-2,No answer,customer,skip
+security,incident-response,SEC10,SEC10-BP05,ap-southeast-2,No answer,customer,skip
+security,incident-response,SEC10,SEC10-BP06,ap-southeast-2,No answer,customer,skip
+security,incident-response,SEC10,SEC10-BP07,ap-southeast-2,No answer,customer,skip
+security,incident-response,SEC10,SEC10-BP08,ap-southeast-2,No answer,customer,skip
+
+security,incident-response,SEC10,SEC10-BP01,ap-southeast-2,No answer,customer,skip
+security,incident-response,SEC10,SEC10-BP02,ap-southeast-2,No answer,customer,skip
+security,incident-response,SEC10,SEC10-BP03,ap-southeast-2,No answer,customer,skip
+security,incident-response,SEC10,SEC10-BP04,ap-southeast-2,No answer,customer,skip
+security,incident-response,SEC10,SEC10-BP05,ap-southeast-2,No answer,customer,skip
+security,incident-response,SEC10,SEC10-BP06,ap-southeast-2,No answer,customer,skip
+security,incident-response,SEC10,SEC10-BP07,ap-southeast-2,No answer,customer,skip
+security,incident-response,SEC10,SEC10-BP08,ap-southeast-2,No answer,customer,skip
+
+performance-efficiency,architecture-selection,PERF01,PERF01-BP01,ap-southeast-2,No answer,customer,skip
+performance-efficiency,architecture-selection,PERF01,PERF01-BP02,ap-southeast-2,No answer,customer,skip
+performance-efficiency,architecture-selection,PERF01,PERF01-BP03,ap-southeast-2,No answer,customer,skip
+performance-efficiency,architecture-selection,PERF01,PERF01-BP04,ap-southeast-2,No answer,customer,skip
+performance-efficiency,architecture-selection,PERF01,PERF01-BP05,ap-southeast-2,No answer,customer,skip
+performance-efficiency,architecture-selection,PERF01,PERF01-BP06,ap-southeast-2,No answer,customer,skip
+performance-efficiency,architecture-selection,PERF01,PERF01-BP07,ap-southeast-2,No answer,customer,skip
+
+performance-efficiency,compute-hardware,PERF02,PERF02-BP01,ap-southeast-2,No answer,customer,skip
+performance-efficiency,compute-hardware,PERF02,PERF02-BP02,ap-southeast-2,No answer,customer,skip
+performance-efficiency,compute-hardware,PERF02,PERF02-BP03,ap-southeast-2,No answer,customer,skip
+performance-efficiency,compute-hardware,PERF02,PERF02-BP04,ap-southeast-2,No answer,customer,skip
+performance-efficiency,compute-hardware,PERF02,PERF02-BP05,ap-southeast-2,No answer,customer,skip
+performance-efficiency,compute-hardware,PERF02,PERF02-BP06,ap-southeast-2,No answer,customer,skip
+
+performance-efficiency,data-management,PERF03,PERF03-BP01,ap-southeast-2,No answer,customer,skip
+performance-efficiency,data-management,PERF03,PERF03-BP02,ap-southeast-2,No answer,customer,skip
+performance-efficiency,data-management,PERF03,PERF03-BP03,ap-southeast-2,No answer,customer,skip
+performance-efficiency,data-management,PERF03,PERF03-BP04,ap-southeast-2,No answer,customer,skip
+performance-efficiency,data-management,PERF03,PERF03-BP05,ap-southeast-2,No answer,customer,skip
+
+performance-efficiency,networking-content-delivery,PERF04,PERF04-BP01,ap-southeast-2,No answer,customer,skip
+performance-efficiency,networking-content-delivery,PERF04,PERF04-BP02,ap-southeast-2,No answer,customer,skip
+performance-efficiency,networking-content-delivery,PERF04,PERF04-BP03,ap-southeast-2,No answer,customer,skip
+performance-efficiency,networking-content-delivery,PERF04,PERF04-BP04,ap-southeast-2,No answer,customer,skip
+performance-efficiency,networking-content-delivery,PERF04,PERF04-BP05,ap-southeast-2,No answer,customer,skip
+performance-efficiency,networking-content-delivery,PERF04,PERF04-BP06,ap-southeast-2,No answer,customer,skip
+performance-efficiency,networking-content-delivery,PERF04,PERF04-BP07,ap-southeast-2,No answer,customer,skip
+
+performance-efficiency,process-culture,PERF05,PERF05-BP01,ap-southeast-2,No answer,customer,skip
+performance-efficiency,process-culture,PERF05,PERF05-BP02,ap-southeast-2,No answer,customer,skip
+performance-efficiency,process-culture,PERF05,PERF05-BP03,ap-southeast-2,No answer,customer,skip
+performance-efficiency,process-culture,PERF05,PERF05-BP04,ap-southeast-2,No answer,customer,skip
+performance-efficiency,process-culture,PERF05,PERF05-BP05,ap-southeast-2,No answer,customer,skip
+performance-efficiency,process-culture,PERF05,PERF05-BP06,ap-southeast-2,No answer,customer,skip
+performance-efficiency,process-culture,PERF05,PERF05-BP07,ap-southeast-2,No answer,customer,skip
+
+cost-optimization,practice-cloud-financial-management,COST01,COST01-BP01,ap-southeast-2,No answer,customer,skip
+cost-optimization,practice-cloud-financial-management,COST01,COST01-BP02,ap-southeast-2,No answer,customer,skip
+cost-optimization,practice-cloud-financial-management,COST01,COST01-BP03,ap-southeast-2,No answer,customer,skip
+cost-optimization,practice-cloud-financial-management,COST01,COST01-BP04,ap-southeast-2,No answer,customer,skip
+cost-optimization,practice-cloud-financial-management,COST01,COST01-BP05,ap-southeast-2,No answer,customer,skip
+cost-optimization,practice-cloud-financial-management,COST01,COST01-BP06,ap-southeast-2,No answer,customer,skip
+cost-optimization,practice-cloud-financial-management,COST01,COST01-BP07,ap-southeast-2,No answer,customer,skip
+cost-optimization,practice-cloud-financial-management,COST01,COST01-BP08,ap-southeast-2,No answer,customer,skip
+cost-optimization,practice-cloud-financial-management,COST01,COST01-BP09,ap-southeast-2,No answer,customer,skip
+
+cost-optimization,expenditure-usage-awareness,COST02,COST02-BP01,ap-southeast-2,No answer,customer,skip
+cost-optimization,expenditure-usage-awareness,COST02,COST02-BP02,ap-southeast-2,No answer,customer,skip
+cost-optimization,expenditure-usage-awareness,COST02,COST02-BP03,ap-southeast-2,No answer,customer,skip
+cost-optimization,expenditure-usage-awareness,COST02,COST02-BP04,ap-southeast-2,No answer,customer,skip
+cost-optimization,expenditure-usage-awareness,COST02,COST02-BP05,ap-southeast-2,No answer,customer,skip
+cost-optimization,expenditure-usage-awareness,COST02,COST02-BP06,ap-southeast-2,No answer,customer,skip
+
+cost-optimization,expenditure-usage-awareness,COST03,COST03-BP01,ap-southeast-2,No answer,customer,skip
+cost-optimization,expenditure-usage-awareness,COST03,COST03-BP02,ap-southeast-2,No answer,customer,skip
+cost-optimization,expenditure-usage-awareness,COST03,COST03-BP03,ap-southeast-2,No answer,customer,skip
+cost-optimization,expenditure-usage-awareness,COST03,COST03-BP04,ap-southeast-2,No answer,customer,skip
+cost-optimization,expenditure-usage-awareness,COST03,COST03-BP05,ap-southeast-2,No answer,customer,skip
+cost-optimization,expenditure-usage-awareness,COST03,COST03-BP06,ap-southeast-2,No answer,customer,skip
+
+cost-optimization,expenditure-usage-awareness,COST04,COST04-BP01,ap-southeast-2,No answer,customer,skip
+cost-optimization,expenditure-usage-awareness,COST04,COST04-BP02,ap-southeast-2,No answer,customer,skip
+cost-optimization,expenditure-usage-awareness,COST04,COST04-BP03,ap-southeast-2,No answer,customer,skip
+cost-optimization,expenditure-usage-awareness,COST04,COST04-BP04,ap-southeast-2,No answer,customer,skip
+cost-optimization,expenditure-usage-awareness,COST04,COST04-BP05,ap-southeast-2,No answer,customer,skip
+
+cost-optimization,cost-effective-resources,COST05,COST05-BP01,ap-southeast-2,No answer,customer,skip
+cost-optimization,cost-effective-resources,COST05,COST05-BP02,ap-southeast-2,No answer,customer,skip
+cost-optimization,cost-effective-resources,COST05,COST05-BP03,ap-southeast-2,No answer,customer,skip
+cost-optimization,cost-effective-resources,COST05,COST05-BP04,ap-southeast-2,No answer,customer,skip
+cost-optimization,cost-effective-resources,COST05,COST05-BP05,ap-southeast-2,No answer,customer,skip
+cost-optimization,cost-effective-resources,COST05,COST05-BP06,ap-southeast-2,No answer,customer,skip
+
+cost-optimization,cost-effective-resources,COST06,COST06-BP01,ap-southeast-2,No answer,customer,skip
+cost-optimization,cost-effective-resources,COST06,COST06-BP02,ap-southeast-2,No answer,customer,skip
+cost-optimization,cost-effective-resources,COST06,COST06-BP03,ap-southeast-2,No answer,customer,skip
+cost-optimization,cost-effective-resources,COST06,COST06-BP04,ap-southeast-2,No answer,customer,skip
+
+cost-optimization,cost-effective-resources,COST07,COST07-BP01,ap-southeast-2,No answer,customer,skip
+cost-optimization,cost-effective-resources,COST07,COST07-BP02,ap-southeast-2,No answer,customer,skip
+cost-optimization,cost-effective-resources,COST07,COST07-BP03,ap-southeast-2,No answer,customer,skip
+cost-optimization,cost-effective-resources,COST07,COST07-BP04,ap-southeast-2,No answer,customer,skip
+cost-optimization,cost-effective-resources,COST07,COST07-BP05,ap-southeast-2,No answer,customer,skip
+
+cost-optimization,cost-effective-resources,COST08,COST08-BP01,ap-southeast-2,No answer,customer,skip
+cost-optimization,cost-effective-resources,COST08,COST08-BP02,ap-southeast-2,No answer,customer,skip
+cost-optimization,cost-effective-resources,COST08,COST08-BP03,ap-southeast-2,No answer,customer,skip
+
+cost-optimization,manage-demand-supply-resources,COST09,COST09-BP01,ap-southeast-2,No answer,customer,skip
+cost-optimization,manage-demand-supply-resources,COST09,COST09-BP02,ap-southeast-2,No answer,customer,skip
+cost-optimization,manage-demand-supply-resources,COST09,COST09-BP03,ap-southeast-2,No answer,customer,skip
+
+cost-optimization,optimize-over-time,COST10,COST10-BP01,ap-southeast-2,No answer,customer,skip
+cost-optimization,optimize-over-time,COST10,COST10-BP02,ap-southeast-2,No answer,customer,skip
+
+cost-optimization,optimize-over-time,COST11,COST11-BP01,ap-southeast-2,No answer,customer,skip
+
+sustainability,region-selection,SUS01,SUS01-BP01,ap-southeast-2,No answer,customer,skip
+
+sustainability,align-resources,SUS02,SUS02-BP01,ap-southeast-2,No answer,customer,skip
+sustainability,align-resources,SUS02,SUS02-BP02,ap-southeast-2,No answer,customer,skip
+sustainability,align-resources,SUS02,SUS02-BP03,ap-southeast-2,No answer,customer,skip
+sustainability,align-resources,SUS02,SUS02-BP04,ap-southeast-2,No answer,customer,skip
+sustainability,align-resources,SUS02,SUS02-BP05,ap-southeast-2,No answer,customer,skip
+sustainability,align-resources,SUS02,SUS02-BP06,ap-southeast-2,No answer,customer,skip
+
+sustainability,sustainability-patterns,SUS03,SUS03-BP01,ap-southeast-2,No answer,customer,skip
+sustainability,sustainability-patterns,SUS03,SUS03-BP02,ap-southeast-2,No answer,customer,skip
+sustainability,sustainability-patterns,SUS03,SUS03-BP03,ap-southeast-2,No answer,customer,skip
+sustainability,sustainability-patterns,SUS03,SUS03-BP04,ap-southeast-2,No answer,customer,skip
+sustainability,sustainability-patterns,SUS03,SUS03-BP05,ap-southeast-2,No answer,customer,skip
+
+sustainability,data-management-policies,SUS04,SUS04-BP01,ap-southeast-2,No answer,customer,skip
+sustainability,data-management-policies,SUS04,SUS04-BP02,ap-southeast-2,No answer,customer,skip
+sustainability,data-management-policies,SUS04,SUS04-BP03,ap-southeast-2,No answer,customer,skip
+sustainability,data-management-policies,SUS04,SUS04-BP04,ap-southeast-2,No answer,customer,skip
+sustainability,data-management-policies,SUS04,SUS04-BP05,ap-southeast-2,No answer,customer,skip
+sustainability,data-management-policies,SUS04,SUS04-BP06,ap-southeast-2,No answer,customer,skip
+sustainability,data-management-policies,SUS04,SUS04-BP07,ap-southeast-2,No answer,customer,skip
+sustainability,data-management-policies,SUS04,SUS04-BP08,ap-southeast-2,No answer,customer,skip
+
+sustainability,hardware-services-sustainability,SUS05,SUS05-BP01,ap-southeast-2,No answer,customer,skip
+sustainability,hardware-services-sustainability,SUS05,SUS05-BP02,ap-southeast-2,No answer,customer,skip
+sustainability,hardware-services-sustainability,SUS05,SUS05-BP03,ap-southeast-2,No answer,customer,skip
+sustainability,hardware-services-sustainability,SUS05,SUS05-BP04,ap-southeast-2,No answer,customer,skip
+
+sustainability,organizational-processes-sustainability,SUS06,SUS06-BP01,ap-southeast-2,No answer,customer,skip
+sustainability,organizational-processes-sustainability,SUS06,SUS06-BP02,ap-southeast-2,No answer,customer,skip
+sustainability,organizational-processes-sustainability,SUS06,SUS06-BP03,ap-southeast-2,No answer,customer,skip
+sustainability,organizational-processes-sustainability,SUS06,SUS06-BP04,ap-southeast-2,No answer,customer,skip

@@ -1,11 +1,8 @@
-# AWS Well-Architected Mod for Powerpipe
+# AWS Versent Well-Architected Mod for Powerpipe
 
-> [!IMPORTANT]  
-> [Powerpipe](https://powerpipe.io) is now the preferred way to run this mod! [Migrating from Steampipe →](https://powerpipe.io/blog/migrating-from-steampipe)
->
-> All v0.x versions of this mod will work in both Steampipe and Powerpipe, but v1.0.0 onwards will be in Powerpipe format only.
+This repo was forked from the following public location - [https://github.com/turbot/steampipe-mod-aws-well-architected](https://github.com/turbot/steampipe-mod-aws-well-architected)
 
-200+ checks covering AWS Well-Architected Framework defined best practices across all AWS regions.
+Theses checks have been expanded to cover all pillars of the Well Architected Framework and enable customer responses via the use of the CSV.
 
 Run checks in a dashboard:
 ![image](https://raw.githubusercontent.com/turbot/steampipe-mod-aws-well-architected/main/docs/aws_well_architected_reliability_dashboard.png)
@@ -17,17 +14,23 @@ Or in a terminal:
 
 ### Installation
 
-Install Powerpipe (https://powerpipe.io/downloads), or use Brew:
+Install Powerpipe [https://powerpipe.io/downloads](https://powerpipe.io/downloads), or use Brew:
 
 ```sh
 brew install turbot/tap/powerpipe
 ```
 
-This mod also requires [Steampipe](https://steampipe.io) with the [AWS plugin](https://hub.steampipe.io/plugins/turbot/aws) as the data source. Install Steampipe (https://steampipe.io/downloads), or use Brew:
+This mod also requires [Steampipe](https://steampipe.io) with the following data sources.
+
+- [AWS plugin](https://hub.steampipe.io/plugins/turbot/aws)
+- [CSV plugin](https://hub.steampipe.io/plugins/turbot/csv)
+
+Install Steampipe [https://steampipe.io/downloads](https://steampipe.io/downloads), or use Brew:
 
 ```sh
 brew install turbot/tap/steampipe
 steampipe plugin install aws
+steampipe plugin install csv
 ```
 
 Steampipe will automatically use your default AWS credentials. Optionally, you can [setup multiple accounts](https://hub.steampipe.io/plugins/turbot/aws#multi-account-connections) or [customize AWS credentials](https://hub.steampipe.io/plugins/turbot/aws#configuring-aws-credentials).
@@ -40,6 +43,20 @@ cd dashboards
 powerpipe mod init
 powerpipe mod install github.com/turbot/steampipe-mod-aws-well-architected
 ```
+
+### Customer Answers CSV
+
+The CSV file is used to show answers from the customer. An example is located in the root of this respository [war.csv](./war.csv)
+
+Copy this file root of the directory you installed the mod.
+
+```sh
+cp ../war.csv .
+```
+
+and customise with the answers from the customer.
+
+`Error`, `Ok` & `Info` are valid values for the  status column and will show the relative status in the powerpipe dashboard.
 
 ### Browsing Dashboards
 
@@ -55,7 +72,7 @@ Start the dashboard server:
 powerpipe server
 ```
 
-Browse and view your dashboards at **http://localhost:9033**.
+Browse and view your dashboards at [http://localhost:9033](**http://localhost:9033**.)
 
 ### Running Checks in Your Terminal
 
