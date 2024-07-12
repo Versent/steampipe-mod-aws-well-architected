@@ -115,7 +115,7 @@ benchmark "well_architected_framework_rel11_bp07" {
 
   tags = merge(local.well_architected_framework_rel11_common_tags, {
     choice_id = "meet_sla",
-    risk      = "High"
+    risk      = "Medium"
   })
 }
 

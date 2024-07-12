@@ -85,7 +85,7 @@ benchmark "well_architected_framework_rel08_bp05" {
 
   tags = merge(local.well_architected_framework_rel08_common_tags, {
     choice_id = "automation_deployment",
-    risk      = "High"
+    risk      = "Medium"
   })
 }
 

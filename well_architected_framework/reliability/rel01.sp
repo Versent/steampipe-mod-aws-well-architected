@@ -73,7 +73,7 @@ benchmark "well_architected_framework_rel01_bp04" {
 
   tags = merge(local.well_architected_framework_rel01_common_tags, {
     choice_id = "service_quotas_monitoring"
-    risk      = "High"
+    risk      = "Medium"
   })
 }
 
@@ -101,7 +101,7 @@ benchmark "well_architected_framework_rel01_bp06" {
 
   tags = merge(local.well_architected_framework_rel01_common_tags, {
     choice_id = "service_quotas_failover"
-    risk      = "High"
+    risk      = "Medium"
   })
 }
 

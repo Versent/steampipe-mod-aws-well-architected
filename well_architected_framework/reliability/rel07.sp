@@ -42,7 +42,7 @@ benchmark "well_architected_framework_rel07_bp02" {
 
   tags = merge(local.well_architected_framework_rel07_common_tags, {
     choice_id = "obtain_resources_impairment",
-    risk      = "High"
+    risk      = "Medium"
   })
 }
 

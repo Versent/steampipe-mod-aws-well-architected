@@ -58,7 +58,7 @@ benchmark "well_architected_framework_rel12_bp03" {
 
   tags = merge(local.well_architected_framework_rel12_common_tags, {
     choice_id = "functional_testing",
-    risk      = "Medium"
+    risk      = "High"
   })
 }
 
@@ -72,7 +72,7 @@ benchmark "well_architected_framework_rel12_bp04" {
 
   tags = merge(local.well_architected_framework_rel12_common_tags, {
     choice_id = "scaling_performance_testing",
-    risk      = "Medium"
+    risk      = "High"
   })
 }
 
@@ -86,7 +86,7 @@ benchmark "well_architected_framework_rel12_bp05" {
 
   tags = merge(local.well_architected_framework_rel12_common_tags, {
     choice_id = "chaos_engineering",
-    risk      = "High"
+    risk      = "Medium"
   })
 }
 
@@ -100,7 +100,7 @@ benchmark "well_architected_framework_rel12_bp06" {
 
   tags = merge(local.well_architected_framework_rel12_common_tags, {
     choice_id = "game_days",
-    risk      = "High"
+    risk      = "Medium"
   })
 }
 

@@ -57,7 +57,7 @@ benchmark "well_architected_framework_rel13_bp03" {
 
   tags = merge(local.well_architected_framework_rel13_common_tags, {
     choice_id = "test_dr_implementation",
-    risk      = "Medium"
+    risk      = "High"
   })
 }
 
@@ -85,7 +85,7 @@ benchmark "well_architected_framework_rel13_bp05" {
 
   tags = merge(local.well_architected_framework_rel13_common_tags, {
     choice_id = "automate_recovery",
-    risk      = "High"
+    risk      = "Medium"
   })
 }
 

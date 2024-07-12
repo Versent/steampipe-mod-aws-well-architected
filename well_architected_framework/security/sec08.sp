@@ -30,7 +30,7 @@ benchmark "well_architected_framework_sec08_bp01" {
 
   tags = merge(local.well_architected_framework_sec08_common_tags, {
     choice_id = "sec_protect_data_rest_key_mgmt"
-    risk      = "high"
+    risk      = "High"
   })
 }
 
@@ -60,7 +60,7 @@ benchmark "well_architected_framework_sec08_bp02" {
 
   tags = merge(local.well_architected_framework_sec08_common_tags, {
     choice_id = "sec_protect_data_rest_encrypt"
-    risk      = "high"
+    risk      = "High"
   })
 }
 
@@ -78,7 +78,7 @@ benchmark "well_architected_framework_sec08_bp03" {
 
   tags = merge(local.well_architected_framework_sec08_common_tags, {
     choice_id = "sec_protect_data_rest_automate_protection"
-    risk      = "medium"
+    risk      = "Medium"
   })
 }
 
@@ -93,6 +93,71 @@ benchmark "well_architected_framework_sec08_bp04" {
 
   tags = merge(local.well_architected_framework_sec08_common_tags, {
     choice_id = "sec_protect_data_rest_access_control"
-    risk      = "low"
+    risk      = "Low"
   })
+}
+
+# Controls
+control "csv_well_architected_framework_sec08_bp01" {
+  title = "Customer Response"
+
+  sql = <<EOT
+    select
+      reason,
+      resource,
+      status,
+      region
+    from
+      war
+    where
+      pillar = 'security' AND best_practise = 'SEC08-BP01'
+    EOT
+}
+
+control "csv_well_architected_framework_sec08_bp02" {
+  title = "Customer Response"
+
+  sql = <<EOT
+    select
+      reason,
+      resource,
+      status,
+      region
+    from
+      war
+    where
+      pillar = 'security' AND best_practise = 'SEC08-BP02'
+    EOT
+}
+
+control "csv_well_architected_framework_sec08_bp03" {
+  title = "Customer Response"
+
+  sql = <<EOT
+    select
+      reason,
+      resource,
+      status,
+      region
+    from
+      war
+    where
+      pillar = 'security' AND best_practise = 'SEC08-BP03'
+    EOT
+}
+
+control "csv_well_architected_framework_sec08_bp04" {
+  title = "Customer Response"
+
+  sql = <<EOT
+    select
+      reason,
+      resource,
+      status,
+      region
+    from
+      war
+    where
+      pillar = 'security' AND best_practise = 'SEC08-BP04'
+    EOT
 }

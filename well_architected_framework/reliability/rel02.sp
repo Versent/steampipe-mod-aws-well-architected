@@ -85,7 +85,7 @@ benchmark "well_architected_framework_rel02_bp05" {
 
   tags = merge(local.well_architected_framework_rel02_common_tags, {
     choice_id = "network_ip_ranges"
-    risk      = "High"
+    risk      = "Medium"
   })
 }
 

@@ -45,7 +45,8 @@ benchmark "well_architected_framework_sec01_bp02" {
     control.csv_well_architected_framework_sec01_bp02,
     aws_compliance.control.iam_root_user_hardware_mfa_enabled,
     aws_compliance.control.iam_root_user_mfa_enabled,
-    aws_compliance.control.iam_root_user_no_access_keys
+    aws_compliance.control.iam_root_user_no_access_keys,
+    aws_compliance.control.iam_root_last_used
   ]
 
   tags = merge(local.well_architected_framework_sec01_common_tags, {
@@ -59,7 +60,13 @@ benchmark "well_architected_framework_sec01_bp03" {
   description = "Identify and validate control objectives to ensure that your security controls are effective and meet your requirements."
 
   children = [
-    control.csv_well_architected_framework_sec01_bp03
+    control.csv_well_architected_framework_sec01_bp03,
+    aws_compliance.control.cloudtrail_trail_validation_enabled,
+    aws_compliance.control.log_metric_filter_root_login,
+    aws_compliance.control.log_metric_filter_console_login_mfa,
+    aws_compliance.control.log_metric_filter_disable_or_delete_cmk,
+    aws_compliance.control.log_metric_filter_network_acl,
+    aws_compliance.control.log_metric_filter_iam_policy,
   ]
 
   tags = merge(local.well_architected_framework_sec01_common_tags, {
@@ -78,7 +85,7 @@ benchmark "well_architected_framework_sec01_bp04" {
 
   tags = merge(local.well_architected_framework_sec01_common_tags, {
     choice_id = "stay_up_to_date",
-    risk      = "Medium"
+    risk      = "High"
   })
 }
 
@@ -87,7 +94,19 @@ benchmark "well_architected_framework_sec01_bp05" {
   description = "Reduce security management scope to focus on critical areas and improve overall security management efficiency."
 
   children = [
-    control.csv_well_architected_framework_sec01_bp05
+    control.csv_well_architected_framework_sec01_bp05,
+    aws_compliance.control.cloudtrail_s3_data_events_enabled,
+    aws_compliance.control.cloudtrail_s3_logging_enabled,
+    aws_compliance.control.cloudtrail_trail_enabled,
+    aws_compliance.control.cloudtrail_trail_integrated_with_logs,
+    aws_compliance.control.cloudtrail_trail_logs_encrypted_with_kms_cmk,
+    aws_compliance.control.cloudtrail_security_trail_enabled,
+    aws_compliance.control.cloudwatch_alarm_action_enabled,
+    aws_compliance.control.cloudwatch_alarm_action_enabled_check,
+    aws_compliance.control.cloudwatch_cross_account_sharing,
+    aws_compliance.control.cloudwatch_log_group_retention_period_365,
+    aws_compliance.control.log_group_encryption_at_rest_enabled,
+    aws_compliance.control.vpc_flow_logs_enabled,
   ]
 
   tags = merge(local.well_architected_framework_sec01_common_tags, {
@@ -103,12 +122,15 @@ benchmark "well_architected_framework_sec01_bp06" {
   children = [
     control.csv_well_architected_framework_sec01_bp06,
     aws_compliance.control.ec2_instance_ssm_managed,
-    aws_compliance.control.ecr_repository_image_scan_on_push_enabled
+    aws_compliance.control.ecr_repository_image_scan_on_push_enabled,
+    aws_compliance.control.kms_cmk_rotation_enabled,
+    aws_compliance.control.secretsmanager_secret_automatic_rotation_enabled,
+    aws_compliance.control.secretsmanager_secret_automatic_rotation_lambda_enabled,
   ]
 
   tags = merge(local.well_architected_framework_sec01_common_tags, {
     choice_id = "automate_security_controls",
-    risk      = "High"
+    risk      = "Medium"
   })
 }
 
@@ -137,7 +159,7 @@ benchmark "well_architected_framework_sec01_bp08" {
 
   tags = merge(local.well_architected_framework_sec01_common_tags, {
     choice_id = "evaluate_new_services",
-    risk      = "Medium"
+    risk      = "Low"
   })
 }
 

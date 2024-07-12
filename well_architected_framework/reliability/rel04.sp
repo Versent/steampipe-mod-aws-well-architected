@@ -56,7 +56,7 @@ benchmark "well_architected_framework_rel04_bp03" {
 
   tags = merge(local.well_architected_framework_rel04_common_tags, {
     choice_id = "constant_work",
-    risk      = "Medium"
+    risk      = "Low"
   })
 }
 

@@ -73,7 +73,7 @@ benchmark "well_architected_framework_rel06_bp04" {
 
   tags = merge(local.well_architected_framework_rel06_common_tags, {
     choice_id = "automate_responses",
-    risk      = "High"
+    risk      = "Medium"
   })
 }
 

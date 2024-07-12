@@ -89,7 +89,7 @@ benchmark "well_architected_framework_sec02_bp04" {
 
   tags = merge(local.well_architected_framework_sec02_common_tags, {
     choice_id = "centralized_identity",
-    risk      = "Medium"
+    risk      = "High"
   })
 }
 
@@ -106,7 +106,7 @@ benchmark "well_architected_framework_sec02_bp05" {
 
   tags = merge(local.well_architected_framework_sec02_common_tags, {
     choice_id = "audit_rotate_credentials",
-    risk      = "Medium"
+    risk      = "High"
   })
 }
 

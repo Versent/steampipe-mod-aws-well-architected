@@ -56,7 +56,7 @@ benchmark "well_architected_framework_rel09_bp03" {
 
   tags = merge(local.well_architected_framework_rel09_common_tags, {
     choice_id = "automate_backups",
-    risk      = "High"
+    risk      = "Medium"
   })
 }
 

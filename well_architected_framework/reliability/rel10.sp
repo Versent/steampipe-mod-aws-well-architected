@@ -70,7 +70,7 @@ benchmark "well_architected_framework_rel10_bp04" {
 
   tags = merge(local.well_architected_framework_rel10_common_tags, {
     choice_id = "bulkhead_architectures",
-    risk      = "Medium"
+    risk      = "High"
   })
 }
 

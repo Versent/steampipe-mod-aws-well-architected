@@ -59,7 +59,7 @@ benchmark "well_architected_framework_rel05_bp03" {
 
   tags = merge(local.well_architected_framework_rel05_common_tags, {
     choice_id = "limit_retry_calls",
-    risk      = "Medium"
+    risk      = "High"
   })
 }
 
@@ -73,7 +73,7 @@ benchmark "well_architected_framework_rel05_bp04" {
 
   tags = merge(local.well_architected_framework_rel05_common_tags, {
     choice_id = "fail_fast",
-    risk      = "Medium"
+    risk      = "High"
   })
 }
 
@@ -87,7 +87,7 @@ benchmark "well_architected_framework_rel05_bp05" {
 
   tags = merge(local.well_architected_framework_rel05_common_tags, {
     choice_id = "client_timeouts",
-    risk      = "Medium"
+    risk      = "High"
   })
 }
 
@@ -115,7 +115,7 @@ benchmark "well_architected_framework_rel05_bp07" {
 
   tags = merge(local.well_architected_framework_rel05_common_tags, {
     choice_id = "emergency_levers",
-    risk      = "High"
+    risk      = "Medium"
   })
 }
 
