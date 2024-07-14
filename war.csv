@@ -1,12 +1,12 @@
 pillar,best_practise_area,question,best_practise,region,reason,resource,status
-operational-excellence,organization,OPS01,OPS01-BP01,ap-southeast-2,We work from customer outcomes,customer,test
+operational-excellence,organization,OPS01,OPS01-BP01,ap-southeast-2,We work backwards from customer outcomes,customer,skip
 operational-excellence,organization,OPS01,OPS01-BP02,ap-southeast-2,We update your priorities as needs change,customer,ok
 operational-excellence,organization,OPS01,OPS01-BP03,ap-southeast-2,Governance requirements are regularly reviewed and updated,customer,ok
 operational-excellence,organization,OPS01,OPS01-BP04,ap-southeast-2,Align to HIPAA,customer,ok
 operational-excellence,organization,OPS01,OPS01-BP05,ap-southeast-2,This area needs work,customer,skip
 operational-excellence,organization,OPS01,OPS01-BP06,ap-southeast-2,This area needs work,customer,skip
 
-operational-excellence,organization,OPS02,OPS02-BP01,ap-southeast-2,No answer,customer,info
+operational-excellence,organization,OPS02,OPS02-BP01,ap-southeast-2,No answer,customer,skip
 operational-excellence,organization,OPS02,OPS02-BP02,ap-southeast-2,No answer,customer,skip
 operational-excellence,organization,OPS02,OPS02-BP03,ap-southeast-2,No answer,customer,skip
 operational-excellence,organization,OPS02,OPS02-BP04,ap-southeast-2,No answer,customer,skip

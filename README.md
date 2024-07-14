@@ -25,7 +25,7 @@ This mod also requires [Steampipe](https://steampipe.io) with the following data
 - [AWS plugin](https://hub.steampipe.io/plugins/turbot/aws)
 - [CSV plugin](https://hub.steampipe.io/plugins/turbot/csv)
 
-Install Steampipe [https://steampipe.io/downloads](https://steampipe.io/downloads), or use Brew:
+Install Steampipe [https://steampipe.io/downloads](https://steampipe.io/downloads), or use Brew, [AWS plugin](https://hub.steampipe.io/plugins/turbot/aws) & [CSV plugin](https://hub.steampipe.io/plugins/turbot/csv):
 
 ```sh
 brew install turbot/tap/steampipe
