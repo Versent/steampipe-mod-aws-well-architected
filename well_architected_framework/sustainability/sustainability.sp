@@ -13,6 +13,7 @@ benchmark "well_architected_framework_sustainability" {
     benchmark.well_architected_framework_sus03,
     benchmark.well_architected_framework_sus04,
     benchmark.well_architected_framework_sus05,
+    benchmark.well_architected_framework_sus06,
   ]
 
   tags = local.well_architected_framework_performance_common_tags

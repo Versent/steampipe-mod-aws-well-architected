@@ -14,6 +14,7 @@ benchmark "well_architected_framework_security" {
     benchmark.well_architected_framework_sec04,
     benchmark.well_architected_framework_sec05,
     benchmark.well_architected_framework_sec06,
+    benchmark.well_architected_framework_sec07,
     benchmark.well_architected_framework_sec08,
     benchmark.well_architected_framework_sec09,
     benchmark.well_architected_framework_sec10,

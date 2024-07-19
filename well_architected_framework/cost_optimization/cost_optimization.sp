@@ -14,6 +14,7 @@ benchmark "well_architected_framework_cost_optimization" {
     benchmark.well_architected_framework_cost04,
     benchmark.well_architected_framework_cost05,
     benchmark.well_architected_framework_cost06,
+    benchmark.well_architected_framework_cost07,
     benchmark.well_architected_framework_cost08,
     benchmark.well_architected_framework_cost09,
     benchmark.well_architected_framework_cost10,
